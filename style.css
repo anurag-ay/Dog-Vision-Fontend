@@ -1,0 +1,191 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  color: white;
+  align-items: center;
+  display: flex;
+  background: #000000;
+  height: 64px;
+}
+.logo {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 40px;
+  /* top: 22px; */
+}
+.logo img {
+  /* box-sizing: border-box; */
+
+  /* position: absolute; */
+  width: 50px;
+  height: 50px;
+  /* margin-bottom: 20px; */
+  align-items: center;
+}
+.Navigation_bar {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  width: 88%;
+  margin-left: 100px;
+  /* margin-bottom: 10px; */
+
+  /* border: 2px solid green; */
+}
+.git {
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  /* position: absolute; */
+  right: 40px;
+  top: 22px;
+  align-items: center;
+}
+.git img {
+  height: 30px;
+  width: 30px;
+}
+.name {
+  position: absolute;
+  width: 124px;
+  height: 29px;
+  left: 100px;
+  top: 18px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #e0e0e0;
+}
+.navbar {
+  position: absolute;
+  display: inline-block;
+  right: 140px;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #fffdfd;
+}
+.navbar li a:hover {
+  padding: 8px 8px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.drop_box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 312px;
+  height: 316px;
+  left: 564px;
+  top: 229px;
+
+  background: #f7f7ff;
+  border: 2px solid #a2a6fa;
+  border-radius: 10px;
+
+  box-shadow: inset 7px 7px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.25));
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 924px;
+  background-color: #000000;
+}
+.button {
+  display: flex;
+}
+.capture {
+  cursor: pointer;
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 493px;
+  top: 589px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #efefef;
+  background: #000000;
+  border-radius: 10px;
+}
+.capture:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+}
+.upload {
+  cursor: pointer;
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 729px;
+  top: 589px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #efefef;
+  background: #000000;
+  border-radius: 10px;
+}
+.upload:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+}
+.find_breed {
+  cursor: pointer;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 265px;
+  height: 50px;
+  left: 588px;
+  top: 675px;
+
+  background: #dde1fa;
+  border: 2px solid #c2c4f8;
+  /* box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.find_breed:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+  border: 2px solid black;
+}
